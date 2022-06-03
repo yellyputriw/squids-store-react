@@ -1,4 +1,4 @@
-import { CollectionListData } from '../../../views/CollectionListData';
+import { CollectionListData } from './CollectionListData';
 
 const CollectionList = () => {
   const collections = CollectionListData();

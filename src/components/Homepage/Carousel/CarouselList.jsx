@@ -1,4 +1,4 @@
-import { CarouselListData } from '../../../views/CarouselListData';
+import { CarouselListData } from './CarouselListData';
 
 const CarouselList = () => {
   const carousels = CarouselListData();
