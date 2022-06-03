@@ -1,0 +1,37 @@
+.menu-wrapper {
+  height: fit-content;
+  padding: 24px 24px 23px 26px;
+  border: 1px solid var(--btn-background);
+  border-radius: 5px;
+}
+
+.menu-wrapper ul {
+  margin-bottom: 21px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.menu-wrapper ul:nth-child(3) {
+  border-bottom: none;
+}
+
+.menu-wrapper ul li {
+  padding-bottom: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-wrapper ul li a {
+  margin-left: 14px;
+  color: var(--text-primary);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-regular);
+}
+
+.menu-wrapper ul li a.active,
+.menu-wrapper ul li a:hover {
+  color: var(--main-purple);
+}
+
+.menu-wrapper ul li a.active {
+  font-weight: 600;
+}

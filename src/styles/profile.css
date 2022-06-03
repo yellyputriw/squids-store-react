@@ -1,0 +1,67 @@
+main.profile {
+  padding: 24px 100px 75px;
+  display: grid;
+  grid-template-areas:
+    'img acc acc acc acc acc'
+    'menu acc acc acc acc acc'
+    'menu acc  acc acc acc acc';
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+}
+
+.profile-img {
+  grid-area: img;
+  padding: 38px 149px 33px 138px;
+  margin-right: 23px;
+  border: 1px solid var(--btn-background);
+  border-radius: 5px;
+}
+
+.profile-account {
+  grid-area: acc;
+  height: 382px;
+  padding: 27px 37px 34px 33px;
+  border: 1px solid var(--btn-background);
+  border-radius: 5px;
+}
+
+.profile-account h2 {
+  margin-bottom: 23px;
+  color: var(--text-primary);
+  font-size: var(--fs-20);
+  font-weight: var(--semi-bold);
+}
+
+.profile-account .personal-info {
+  margin-bottom: 23px;
+}
+
+.personal-info span {
+  color: var(--text-secondary);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-regular);
+  line-height: 20.4px;
+  margin-bottom: 5px;
+}
+
+.personal-info p {
+  color: var(--text-primary);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-regular);
+  line-height: 23.8px;
+}
+
+.profile-account .btn-wrapper {
+  text-align: end;
+  margin-top: 5px;
+}
+
+.btn-wrapper button {
+  padding: 10px 29px;
+  background-color: var(--main-purple);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+  line-height: 23.8px;
+  color: var(--text-white);
+  border-radius: 5px;
+}
