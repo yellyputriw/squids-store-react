@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fs-12: 12px;
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-30: 30px;
+
+  --main-purple: #556fb5;
+  --second-purple: #3630c9;
+  --blue-footer: #435b9d;
+  --blue-text: #b7c1da;
+  --blue-text-lighten: #b7c1da8f;
+  --red-button: #fd8070;
+  --text-primary: #060a12;
+  --text-secondary: #676767;
+  --text-white: #fff;
+  --form-background: #f6f9fb;
+  --btn-background: #ecf2f5;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
