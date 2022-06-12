@@ -1,26 +1,26 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const NavbarList = () => {
   return (
-    <div className='nav-wrapper'>
+    <div className="nav-wrapper">
       <ul>
         <li>
-          <Link to='/'>Beranda</Link>
+          <Link to="/">Beranda</Link>
         </li>
         <li>
-          <Link to='/store'>Toko</Link>
+          <Link to="/store">Toko</Link>
         </li>
         <li>
-          <Link to='/store'>Paket</Link>
+          <Link to="/store">Paket</Link>
         </li>
         <li>
-          <Link to='/blog'>Blog</Link>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <Link to='/store'>Kontak</Link>
+          <Link to="/contact">Kontak</Link>
         </li>
         <li>
-          <Link to='/store'>Tentang Kami</Link>
+          <Link to="/store">Tentang Kami</Link>
         </li>
       </ul>
     </div>

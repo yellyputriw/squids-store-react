@@ -1,0 +1,99 @@
+.my-account-edit {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 23px;
+  margin: 24px 100px 91px;
+}
+
+.profil-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 91px 81px;
+  border: 1px solid var(--btn-background);
+  border-radius: 5px;
+}
+
+.profil-img-wrapper p {
+  color: var(--text-secondary);
+  font-size: var(--fs-12);
+  line-height: 20.4px;
+  margin-bottom: 23px;
+}
+
+.profil-img {
+  position: relative;
+}
+
+.profil-img button {
+  position: absolute;
+  bottom: 32px;
+  right: 6px;
+  padding: 16px;
+  border-radius: 50%;
+  background-color: var(--btn-background);
+}
+
+.profil-identity-wrapper {
+  padding: 27px 32px 37px 33px;
+  border-radius: 5px;
+  border: 1px solid var(--btn-background);
+}
+
+.profil-identity-wrapper h2 {
+  margin-bottom: 23px;
+  color: var(--text-primary);
+  font-size: var(--fs-20);
+  font-weight: var(--fw-semi-bold);
+  line-height: 34px;
+}
+
+.form-box {
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box label {
+  color: var(--text-secondary);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-regular);
+  line-height: 20.4px;
+  margin-bottom: 2px;
+}
+
+.form-box input {
+  width: 685px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--form-background);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-regular);
+  line-height: 23.8px;
+}
+
+.btn-box {
+  margin-top: 22px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-box .btn {
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+  line-height: 23.8px;
+}
+
+.btn-box .cancel {
+  background: none;
+  margin-right: 29px;
+  color: var(--second-purple);
+}
+
+.btn-box .save {
+  background-color: var(--main-purple);
+  color: var(--text-white);
+  padding: 10px 20px;
+  border-radius: 5px;
+}

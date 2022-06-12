@@ -1,4 +1,4 @@
-const NavbarSearch = () => {
+const NavbarSearch = ({ search }) => {
   return (
     <form action='#' className='search-bar'>
       <span className='search-icon'>
@@ -9,7 +9,7 @@ const NavbarSearch = () => {
         placeholder='Cari'
         className='search-input'
         id='search-bar'
-        // value={search}
+        value={search}
       />
     </form>
   );

@@ -34,12 +34,12 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input,
 button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: none;
 }
 
@@ -53,4 +53,9 @@ a {
 
 li {
   list-style: none;
+}
+
+a,
+button {
+  cursor: pointer;
 }

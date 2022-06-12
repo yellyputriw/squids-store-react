@@ -1,0 +1,120 @@
+#contact {
+  margin: 50px 100px 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 58px;
+}
+
+.contact-wrapper h1 {
+  color: var(--text-primary);
+  font-size: var(--fs-30);
+  font-weight: var(--fw-medium);
+  line-height: 51px;
+  margin-bottom: 16px;
+}
+
+.contact-wrapper p {
+  color: var(--text-primary);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-regular);
+  line-height: 23.8px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.contact-detail {
+  margin-bottom: 29px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.contact p {
+  margin-left: 12px;
+  margin-bottom: 0;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media img {
+  margin-left: 19px;
+}
+
+.form-wrapper {
+  max-width: 585px;
+  height: fit-content;
+  padding: 21px 29px 28px 28px;
+  box-shadow: 0px 0px 2px 0px #00000040;
+  border-radius: 5px;
+}
+
+.form-wrapper h2 {
+  color: var(--text-primary);
+  font-size: var(--fs-24);
+  font-weight: var(--fw-medium);
+  line-height: 40.8px;
+  margin-bottom: 17px;
+}
+
+.form-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message label {
+  color: var(--text-secondary);
+  font-size: var(--fs-12);
+  line-height: 20.4px;
+  font-weight: var(--fw-regular);
+  margin-bottom: 2px;
+}
+
+.message input,
+.message textarea {
+  margin-bottom: 17px;
+  background-color: var(--form-bacground);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: var(--fs-14);
+  border: none;
+}
+
+.message input {
+  width: 254px;
+  height: 45px;
+  margin-right: 20px;
+}
+
+.message textarea {
+  height: 231px;
+}
+
+.form-wrapper .btn {
+  text-align: end;
+  margin-top: 11px;
+}
+
+.form-wrapper button {
+  width: 96px;
+  height: 35px;
+  padding: 7px 31px;
+  border-radius: 5px;
+  background-color: var(--main-purple);
+  color: var(--text-white);
+  font-size: var(--fs-13);
+  font-weight: var(--fw-medium);
+  text-align: center;
+  line-height: 22.1px;
+}
