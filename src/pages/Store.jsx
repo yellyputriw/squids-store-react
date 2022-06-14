@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Layout from "../components/Layout";
 import ProductList from "../components/Product";
+import { useNavigate } from "react-router-dom";
 
 const Store = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
 
@@ -51,6 +53,12 @@ const Store = () => {
             />
             <p>PUT STORE MOTTO OR TAGLINE HERE!</p>
           </div>
+        </div>
+        <div className="add-product">
+          <button onClick={() => navigate("/add-product")}>
+            <img src="/icons/plus.svg" alt="+" />
+            Tambah Produk
+          </button>
         </div>
         <ProductList
           data={data}

@@ -8,6 +8,7 @@ import Contact from "../pages/Contact";
 import Wishlist from "../pages/Wishlist";
 import EditProfile from "../pages/EditProfile";
 import CustomerGreeting from "../pages/CustomerGreeting";
+import AddProduct from "../components/Product/AddProduct";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/wishlist" exact element={<Wishlist />} />
         <Route path="/edit-Profile" exact element={<EditProfile />} />
         <Route path="/customer-greeting" exact element={<CustomerGreeting />} />
+        <Route path="/add-product" exact element={<AddProduct />} />
       </Routes>
     </BrowserRouter>
   );

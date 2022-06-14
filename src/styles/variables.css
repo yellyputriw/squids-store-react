@@ -38,7 +38,9 @@ body {
 }
 
 input,
-button {
+button,
+textarea,
+select {
   font-family: "Poppins", sans-serif;
   border: none;
 }

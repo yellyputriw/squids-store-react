@@ -19,6 +19,27 @@
   text-align: center;
 }
 
+.add-product {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.add-product button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px 16px;
+  background-color: var(--main-purple);
+  border-radius: 5px;
+  color: var(--text-white);
+  font-weight: var(--fw-medium);
+}
+
+.add-product button img {
+  margin-right: 4px;
+}
+
 #categories {
   margin: 0 100px 28px;
 }
