@@ -1,12 +1,12 @@
-import NavbarButton from './NavbarButton';
-import NavbarList from './NavbarList';
-import NavbarSearch from './NavbarSearch';
+import NavbarButton from "./NavbarButton";
+import NavbarList from "./NavbarList";
+import NavbarSearch from "./NavbarSearch";
 
-const NavbarMenu = () => {
+const NavbarMenu = ({ search }) => {
   return (
-    <div className='nav-wrapper'>
+    <div className="nav-wrapper">
       <NavbarList />
-      <NavbarSearch />
+      <NavbarSearch search={search} />
       <NavbarButton />
     </div>
   );

@@ -1,13 +1,13 @@
-import NavbarLogo from './NavbarLogo';
-import NavbarMenu from './NavbarMenu';
+import NavbarLogo from "./NavbarLogo";
+import NavbarMenu from "./NavbarMenu";
 
-const Navbar = () => {
+const Navbar = ({ search }) => {
   return (
     <header>
       <nav>
-        <div className='container'>
+        <div className="container">
           <NavbarLogo />
-          <NavbarMenu />
+          <NavbarMenu search={search} />
         </div>
       </nav>
     </header>

@@ -1,36 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
-import { useEffect, useState } from "react";
 import Rating from "./Rating";
 
-const ProductList = () => {
+const ProductList = ({ data, filter, setFilter, filterProduct }) => {
   const navigate = useNavigate();
-  const [data, setData] = useState([]);
-  const [filter, setFilter] = useState(data);
-
-  useEffect(() => {
-    let active = true;
-    (async () => {
-      try {
-        const result = await axios.get("https://fakestoreapi.com/products");
-
-        if (active) {
-          setData(result?.data);
-          setFilter(result?.data);
-        }
-      } catch (e) {
-        console.log(e);
-      }
-    })();
-    return () => {
-      active = false;
-    };
-  }, []);
-
-  const filterProduct = (cat) => {
-    const updateList = data.filter((x) => x.category === cat);
-    setFilter(updateList);
-  };
 
   return (
     <>
